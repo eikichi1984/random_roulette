@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ランダム選択</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <label for="nameInput">名前を入力してください:</label>
+      <input type="text" id="nameInput">
+      <button onclick="addName()">名前を追加</button>
+    </div>
+    <div id="nameList">現在のリスト: なし</div>
+    <div id="result">ここに名前が表示されます</div>
+    <button onclick="showRandomName()">名前を表示</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
