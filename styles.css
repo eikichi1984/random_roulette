@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 ;
+}
+
+#result {
+    font-size: 2em;
+    margin-top: 10px;
+    color: rgb(68, 0, 255);
+}
+
+#nameList {
+    margin-top: 0px;
+    text-align: left;
+}
+
+.name-item {
+    display: flex;
+    align-items: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+button {
+    display:flexbox ;
+    margin: 5px auto;
+    padding: 1px 1px;
+    font-size: 1em;
+}
