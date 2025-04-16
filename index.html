@@ -2,22 +2,21 @@
 <html lang="ja">
 
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ランダム選択</title>
+  <title>名前ルーレット</title>
+
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <div class="container">
-    <div>
-      <label for="nameInput">名前を入力してください:</label>
-      <input type="text" id="nameInput">
-      <button onclick="addName()">名前を追加</button>
-    </div>
-    <div id="nameList">現在のリスト: なし</div>
-    <div id="result">ここに名前が表示されます</div>
-    <button onclick="showRandomName()">名前を表示</button>
+  <h1>名前ルーレット</h1>
+  <input type="text" id="nameInput" placeholder="名前を入力">
+  <button onclick="addName()">追加</button>
+  <div id="nameList"></div>
+  <div class="roulette">
+    <button onclick="startRoulette()">ルーレット開始</button>
+    <div id="result"></div>
   </div>
 
   <script src="script.js"></script>
